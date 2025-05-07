@@ -14,15 +14,15 @@
     background-image: url('https://www.transparenttextures.com/patterns/triangular.png');
   }
   
-  .login-container {
+  .register-container {
     background: rgba(0, 0, 0, 0.6);
-    width: 320px;
+    width: 350px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
   }
   
-  .login-header {
+  .register-header {
     background-color: #33d6c8;
     color: #000;
     text-align: center;
@@ -31,7 +31,7 @@
     font-weight: bold;
   }
   
-  .login-form {
+  .register-form {
     padding: 30px;
   }
   
@@ -56,21 +56,7 @@
     margin-bottom: 5px;
   }
   
-  .options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #aaa;
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-  
-  .forgot-link {
-    color: #8ceee5;
-    text-decoration: none;
-  }
-  
-  .login-btn {
+  .register-btn {
     width: 100%;
     padding: 12px;
     background-color: #1bd4b4;
@@ -82,7 +68,7 @@
     transition: background-color 0.3s ease;
   }
   
-  .login-btn:hover {
+  .register-btn:hover {
     background-color: #15b4a0;
   }
   
