@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Page</title>
-  </head>
-  <body>
-    <h1>Hello from GitHub Pages!</h1>
-    <a href="first.html">login page</a>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-header">CUSTOMER LOGIN</div>
+    <div class="login-form">
+      <div class="input-group">
+        <label for="email">📧 Email ID</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+      </div>
+      <div class="input-group">
+        <label for="password">🔒 Password</label>
+        <input type="password" id="password" placeholder="Enter your password" />
+      </div>
+      <div class="options">
+        <label><input type="checkbox" /> Remember me</label>
+        <a href="#" class="forgot-link">Forgot Password?</a>
+      </div>
+      <button class="login-btn">LOGIN</button>
+    </div>
+  </div>
+</body>
 </html>
